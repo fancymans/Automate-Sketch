@@ -1,7 +1,8 @@
 
 function ga(context, eventCategory) {
 
-    var trackingID = "UA-99098773-3";
+    // var trackingID = "UA-99098773-3";
+    var trackingID = "";
 
     var uuidKey = "google.analytics.uuid";
     var uuid = NSUserDefaults.standardUserDefaults().objectForKey(uuidKey);
